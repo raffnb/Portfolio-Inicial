@@ -2,6 +2,13 @@
     display: flex;
 justify-content: space-between;
 padding: 1em;
+
+@media (max-width: 767px) {
+text-align: center;
+align-items: center;
+display: block;
+
+}
 }
 
 .navbar ul{
@@ -17,3 +24,5 @@ padding: 1em;
 .navbar a{
     color: aliceblue !important;
 }
+
+

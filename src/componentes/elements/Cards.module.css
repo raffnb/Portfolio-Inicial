@@ -1,13 +1,37 @@
 .cards{
 display: flex;
 justify-content: center;
-margin: 15px;
+margin: 1.2em;
+
+@media  (max-width: 767px) {
+    text-align: center;
+    align-items: center;
+    font-size: 12px;
+    display: block;
+ 
+    
+    }
+
+
 
 }
 
 .cards img{
     width: 500px;
     border-radius: 20px;
+
+    @media  (max-width: 767px) {
+        text-align: center;
+        align-items: center;
+        font-size: 12px;
+        width: 21rem;
+        display: block;
+        padding: 1em;
+
+
+     
+        
+        }
 }
 .cards img:hover{
 transform: translateY(-10px);
@@ -22,6 +46,15 @@ transition-duration: 0.5s;
     width: 500px;
     filter: drop-shadow(0px 4px 4px rgba(0,0,0.25,0.25));
     margin-left: 25px;
+
+    @media  (max-width: 767px) {
+        text-align: center;
+        align-items: center;
+        font-size: 12px;
+        display: block;
+        width: 18rem;
+        
+        }
 
 }
 
