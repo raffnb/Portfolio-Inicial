@@ -13,11 +13,11 @@ function Skills(){
             <p>Conheça um pouco das minhas principais Habilidades e Conhecimentos.</p>
 
             <div>
-                <img src={html} />
-                <img src={css} />
-                <img src={wordpress} />
-                <img src={javascript} />
-                <img src={react} />
+                <img src={html} alt='HTML' />
+                <img src={css} alt='CSS'/>
+                <img src={wordpress} alt='WP'/>
+                <img src={javascript} alt='JS'/>
+                <img src={react} alt='REACT'/>
                 
             </div>
 

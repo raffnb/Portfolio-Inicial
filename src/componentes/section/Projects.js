@@ -4,6 +4,8 @@ import Cards from '../elements/Cards'
 import ccxp from '../../image/projects/ccxp.png'
 import gesseduca from '../../image/projects/gesseduca.png'
 import sampa from '../../image/projects/sampa.png'
+import pokedexImg from '../../image/projects/pokedexImg.png'
+
 function Projects(){
     return(
         <div id="projects" className={styles.projects}>
@@ -33,6 +35,16 @@ function Projects(){
             description = 'Site de E-commerce, foi um projeto realizado durante o curso de Wordpress feito pela Udemy'
             repo = 'https://github.com/raffnb/Site---Sampa'
             site = 'https://dev-raffnbsampa.pantheonsite.io/'
+            />
+    
+
+            <Cards
+            img = {pokedexImg}
+            title = 'SITE - POKEDÉX'
+            tech = 'HTML, CSS, JAVASCRIPT'
+            description = 'Pokedéx com informações Básicas sobre o mundo de Pokemon, para melhorar meu desenvolvimento com a interação com API'
+            repo = 'https://github.com/raffnb/Pokedex'
+            site = 'https://pokedex-api-eight-phi.vercel.app/'
             />
 
 

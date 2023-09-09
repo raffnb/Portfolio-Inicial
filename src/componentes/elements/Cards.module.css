@@ -8,6 +8,7 @@ margin: 1.2em;
     align-items: center;
     font-size: 12px;
     display: block;
+    margin-left: -1rem;
  
     
     }
@@ -27,10 +28,8 @@ margin: 1.2em;
         width: 21rem;
         display: block;
         padding: 1em;
-
-
-     
-        
+    
+          
         }
 }
 .cards img:hover{
